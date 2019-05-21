@@ -1,0 +1,56 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my friend came",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "SayHelloIntent",
+          "slots": [
+            {
+              "name": "name",
+              "type": "name"
+            }
+          ],
+          "samples": [
+            "greet {name}",
+            "wish {name}",
+            "say hello to {name}",
+            "say hi to {name}"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "name": "name",
+          "values": [
+            {
+              "name": {
+                "value": "jagan"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
